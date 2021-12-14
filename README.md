@@ -20,10 +20,13 @@ de la carpeta donde se aloja el proyecto.
 
 
 - Configuración del editor de texto
+
 En este caso el editor de texto utilizado fue Sublime Text, que ya estaba previamente instalado por lo que solo se tuvo
 que hacer el enlace. 
+
 Se abre el editor y se procede a buscar el proyecto creado anteriormente, en mi caso en el disco local en la carpeta de
 Laragon.
+
 Una vez abierto el proyecto, se procede a realizar la programación correspondiente a lo que se pide en el ADA3.
 
 
@@ -36,5 +39,7 @@ Una vez abierto el proyecto, se procede a realizar la programación correspondie
 
 ## Nota:
 En la linea 29 del archivo RouteServiceProvider.php, quitar la doble barra para evitar errores de funcionamineto.
+
 Esta es la línea 29     =>     //protected $namespace = 'App\\Http\\Controllers';
+
 Este archivo se encuentra en la carpeta "app", en la subcarpeta "Providers".
