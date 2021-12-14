@@ -1,5 +1,5 @@
 # ADA3
-Frameworks del lado del servidor.
+Frameworks del lado del servidor. LARAVEL.
 
 ## Instalación y configuración
 
@@ -15,12 +15,16 @@ opción "Web" para entrar al index de Laragon. Se necesita de esta interfaz para
 acciones en la linea de comandos, etc.
 
 En la terminal de Laragon se ejecuta el comando para crear un proyecto y se le da un nombre, esto servirá poder acceder a este
-desde el editor de textos.
+desde el editor de texto. Cada complemento o archivo que se quiera añadir al ejecutar los comandos, deberan ser dentro
+de la carpeta donde se aloja el proyecto.
+
 
 - Configuración del editor de texto
 En este caso el editor de texto utilizado fue Sublime Text, que ya estaba previamente instalado por lo que solo se tuvo
-que hacer la configuración. 
-
+que hacer el enlace. 
+Se abre el editor y se procede a buscar el proyecto creado anteriormente, en mi caso en el disco local en la carpeta de
+Laragon.
+Una vez abierto el proyecto, se procede a realizar la programación correspondiente a lo que se pide en el ADA3.
 
 
 ## Instrucciones
@@ -31,5 +35,6 @@ que hacer la configuración.
 - Enviar y se dara la Bienvenida
 
 ## Nota:
-
-RouteServiceProvider.php
+En la linea 29 del archivo RouteServiceProvider.php, quitar la doble barra para evitar errores de funcionamineto.
+Esta es la línea 29     =>     //protected $namespace = 'App\\Http\\Controllers';
+Este archivo se encuentra en la carpeta "app", en la subcarpeta "Providers".
