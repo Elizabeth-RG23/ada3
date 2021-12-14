@@ -25,7 +25,7 @@ En este caso el editor de texto utilizado fue Sublime Text, que ya estaba previa
 que hacer el enlace. 
 
 Se abre el editor y se procede a buscar el proyecto creado anteriormente, en mi caso en el disco local en la carpeta de
-Laragon.
+Laragon, en la carpeta "wwww".
 
 Una vez abierto el proyecto, se procede a realizar la programación correspondiente a lo que se pide en el ADA3.
 
